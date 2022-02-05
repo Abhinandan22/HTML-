@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pepcoding HTML</title>
+        <style>
+            h1{
+                color: red;
+            }
+
+            p{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Helllo</h1>
+        <h2>Hello2</h2>
+
+        <p>Last chance for me</p>
+
+        <a href="https://leetcode.com/">Go to LeetCode</a>
+
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+        </ul>
+
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+        </ol>
+
+        <span>Hello Me</span><br>
+
+        <img src="" alt="image is not present">
+
+        <form>
+            <label for="">name</label>
+            <input type="text"> <br>
+            <label for="">email</label>
+            <input type="email"><br>
+            <label for="">password</label>
+            <input type="password"><br>
+            <label for="">Enter Digit only</label>
+            <input type="number">
+        </form>
+    </body>
+</html>
