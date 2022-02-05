@@ -10,6 +10,10 @@
             p{
                 background-color: green;
             }
+
+            h2{
+                color:indigo;
+            }
         </style>
     </head>
     <body>
