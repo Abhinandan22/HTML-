@@ -3,6 +3,13 @@
     <head>
         <title>Pepcoding HTML</title>
         <style>
+           
+           *{
+               padding: 0px;
+               margin: 0px;
+           }
+
+
             h1{
                 color: red;
             }
@@ -14,13 +21,26 @@
             h2{
                 color:indigo;
             }
+
+            .heading{
+                color:blue;
+            }
+
+            #para{
+                color:violet;
+            }
+
+            ul,ol{
+                color:green;
+                margin: 20px;
+            }
         </style>
     </head>
     <body>
-        <h1>Helllo</h1>
-        <h2>Hello2</h2>
+        <h1 class="heading">Helllo</h1>
+        <h2 class="heading">Hello2</h2>
 
-        <p>Last chance for me</p>
+        <p id="para">Last chance for me</p>
 
         <a href="https://leetcode.com/">Go to LeetCode</a>
 
